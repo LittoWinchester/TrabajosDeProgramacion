@@ -1,0 +1,16 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.ipch
+
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Otros temporales
+*.suo
+*.opensdf
+*.sdf
+*.pdb
