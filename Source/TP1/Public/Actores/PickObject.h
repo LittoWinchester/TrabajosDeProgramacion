@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "interface/PlayerInterface.h"
 #include "GameFramework/Actor.h"
 #include "PickObject.generated.h"
 
@@ -11,7 +10,7 @@ class USphereComponent;
 class UStaticMesh;
 
 UCLASS()
-class TP1_API APickObject : public AActor, public IPlayerInterface
+class TP1_API APickObject : public AActor
 {
 	GENERATED_BODY()
 	
